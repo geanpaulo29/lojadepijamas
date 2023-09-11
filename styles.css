@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 80px;
+    background-color: #f4f4f4;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+.featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    margin: 20px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.price {
+    font-size: 24px;
+    color: #00ff0d;
+    margin-top: 10px;
+    text-shadow: 2px 2px 2px #333;
+}
+
+.buy-button {
+    background-color: #0066ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.buy-button:hover {
+    background-color: #0066ff;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.newsletter form {
+    margin-top: 20px;
+}
+
+.subscribe-button {
+    background-color: #0066ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.subscribe-button:hover {
+    background-color: #0066ff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.redi {
+    text-align: center;
+    font-size: 18px;
+    border-right:1px solid #c0c0c0;
+    border-top:1px solid #c0c0c0;
+    border: 1px solid #c0c0c0;
+}
